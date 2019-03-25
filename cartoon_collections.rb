@@ -17,14 +17,14 @@ arr.any? do |x|
   end
 end 
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-def find_the_cheese(arr)
-  
-  
+[1, 3, 5, 7].find do |num|
+  num.odd?
+end
+  => 1
 #   describe "#find_the_cheese" do
 #     it "returns the first element of the array that is cheese" do
 #       contains_cheddar = ["banana", "cheddar", "sock"]
