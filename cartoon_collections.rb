@@ -6,7 +6,7 @@ def roll_call_dwarves(arr)
 end 
   
 def summon_captain_planet(arr)
-  newArr = arr.collect |x|
+  arr.collect |x|
   x.capitalize << "!"
   end
 end
