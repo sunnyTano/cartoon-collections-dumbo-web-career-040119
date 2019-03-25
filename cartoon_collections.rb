@@ -20,9 +20,9 @@ end
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.find do |x|
-    x.includes
+    x.include?(cheese_types)
 end
-
+end
 
 #   describe "#find_the_cheese" do
 #     it "returns the first element of the array that is cheese" do
