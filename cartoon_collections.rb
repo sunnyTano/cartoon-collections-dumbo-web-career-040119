@@ -19,13 +19,10 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr.includes(cheese_types)
+  arr.cheese_types?
 end
 
-[1, 3, 5, 7].find do |num|
-  num.odd?
-end
-  => 1
+
 #   describe "#find_the_cheese" do
 #     it "returns the first element of the array that is cheese" do
 #       contains_cheddar = ["banana", "cheddar", "sock"]
