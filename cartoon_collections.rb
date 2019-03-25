@@ -8,7 +8,7 @@ end
 def summon_captain_planet(arr)
   newArr = arr.collect |x|
   x.capitalize << "!"
-end
+  end
 end
 
 def long_planeteer_calls# code an argument here
